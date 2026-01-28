@@ -1,10 +1,10 @@
-# 📊 Análise de Texto com IA usando Azure Databricks
+# Análise de Texto com IA usando Azure Databricks
 
 Este projeto foi desenvolvido como parte da formação **Microsoft AI for Tech – Azure Databricks**, com o objetivo de demonstrar a aplicação prática de análise de dados e conceitos de inteligência artificial em um ambiente de Big Data.
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 Analisar frases de texto utilizando Azure Databricks para:
 
@@ -15,7 +15,7 @@ Analisar frases de texto utilizando Azure Databricks para:
 
 ---
 
-## 🧠 Contexto e Motivação
+## Contexto e Motivação
 
 Empresas lidam diariamente com grandes volumes de dados textuais, como feedbacks de clientes, avaliações de serviços e comentários em plataformas digitais. Transformar esses dados em informação estratégica é um diferencial competitivo.
 
@@ -23,7 +23,7 @@ Este projeto simula esse cenário utilizando frases simples e processamento dist
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Microsoft Azure
 - Azure Databricks
@@ -32,6 +32,3 @@ Este projeto simula esse cenário utilizando frases simples e processamento dist
 - Conceitos de Inteligência Artificial
 - Análise de Dados
 
----
-
-## 📁 Estrutura do Projeto
