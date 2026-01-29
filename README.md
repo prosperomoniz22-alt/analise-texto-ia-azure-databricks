@@ -1,34 +1,67 @@
-# Análise de Texto com IA usando Azure Databricks
+## Análise de Texto com IA usando Azure Databricks (Simulado)
 
-Este projeto foi desenvolvido como parte da formação **Microsoft AI for Tech – Azure Databricks**, com o objetivo de demonstrar a aplicação prática de análise de dados e conceitos de inteligência artificial em um ambiente de Big Data.
+Este projeto foi desenvolvido como parte da formação Microsoft AI for Tech – Azure Databricks (DIO), com o objetivo de demonstrar a aplicação prática de análise de dados e conceitos de Inteligência Artificial em um cenário de Big Data.
 
----
+Embora o ambiente Azure Databricks real não tenha sido utilizado por limitações de acesso, toda a lógica do projeto foi simulada fielmente, respeitando os conceitos e o fluxo de processamento da plataforma.
 
 ## Objetivo do Projeto
 
-Analisar frases de texto utilizando Azure Databricks para:
+Demonstrar como dados textuais não estruturados podem ser processados e analisados para gerar insights estratégicos, utilizando:
+Análise de sentimentos
+Transformação de dados
+Lógica de processamento distribuído
+Apoio à tomada de decisão
 
-- Processar dados não estruturados
-- Classificar sentimentos (positivo, negativo ou neutro)
-- Gerar insights que apoiem decisões de negócio
-- Demonstrar o uso prático de IA aplicada à análise de dados
+## Descrição da Solução
 
----
+O projeto consiste na análise de frases simulando feedbacks de usuários.
+Essas frases são processadas em um notebook que representa um pipeline típico executado em Azure Databricks com Apache Spark.
 
-## Contexto e Motivação
+As etapas incluem:
+Entrada de dados textuais
+Processamento e enriquecimento das informações
+Classificação de sentimentos
+Geração de insights analíticos
 
-Empresas lidam diariamente com grandes volumes de dados textuais, como feedbacks de clientes, avaliações de serviços e comentários em plataformas digitais. Transformar esses dados em informação estratégica é um diferencial competitivo.
+## Tecnologias e Conceitos Utilizados
 
-Este projeto simula esse cenário utilizando frases simples e processamento distribuído com Spark no Azure Databricks.
+Microsoft Azure (conceitual)
+Azure Databricks (simulado)
+Apache Spark (conceitos)
+Python
+Pandas
+Inteligência Artificial aplicada
+Análise de Dados
 
----
+## Estrutura do Repositório
+analise-texto-ia-azure-databricks/
+│
+├── notebooks/
+│   └── analise_texto_ia_simulado.ipynb
+│
+├── images/
+│   ├── print_notebook_1.png
+│   ├── print_notebook_2.png
+│   └── print_notebook_3.png
+│
+└── README.md
 
-## Tecnologias Utilizadas
+## Evidências do Projeto
+🔹 Visão Geral do Notebook
+🔹 Processamento e Análise de Sentimentos
+🔹 Insights Gerados
 
-- Microsoft Azure
-- Azure Databricks
-- Apache Spark
-- Python (PySpark)
-- Conceitos de Inteligência Artificial
-- Análise de Dados
+## Principais Insights
 
+A maioria dos feedbacks analisados apresenta sentimento positivo.
+Os sentimentos negativos estão relacionados a atendimento e suporte.
+A análise de texto permite identificar rapidamente pontos críticos para melhoria.
+Esse tipo de abordagem pode ser aplicada a pesquisas de satisfação, avaliações de produtos e análise de opinião de clientes.
+
+## Conclusão
+
+Este projeto demonstra como a Inteligência Artificial pode ser aplicada à análise de dados textuais para transformar informações não estruturadas em conhecimento estratégico.
+
+Mesmo em um ambiente simulado, o projeto reflete boas práticas utilizadas em soluções reais com Azure Databricks, evidenciando habilidades técnicas, analíticas e conceituais relevantes para o mercado de dados.
+
+Projeto desenvolvido para fins educacionais como parte da formação DIO – Microsoft AI for Tech.
